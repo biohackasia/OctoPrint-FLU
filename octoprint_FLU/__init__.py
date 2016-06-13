@@ -11,6 +11,6 @@ class FLUPlugin(octoprint.plugin.StartupPlugin):
 
 
 __plugin_name__ = "FLU"
-__plugin_version__ = "0.0.1"
-__plugin_description__ = " Filament Load and Unload Plugin"
+# __plugin_version__ = "0.0.1"
+# __plugin_description__ = " Filament Load and Unload Plugin"
 __plugin_implementation__ = FLUPlugin()
