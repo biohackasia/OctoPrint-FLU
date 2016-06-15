@@ -25,7 +25,8 @@ class FLUPlugin(octoprint.plugin.StartupPlugin,
 
     def get_assets(self):
          return dict(
-         js=["js/FLU.js"]
+         js=["js/FLU.js"],
+         css=["css/FLU.css"]
      )   
 
     
